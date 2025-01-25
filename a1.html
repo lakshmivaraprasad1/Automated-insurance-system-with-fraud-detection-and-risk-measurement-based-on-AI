@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<div align = "center">
+<form>
+<table> 
+<tr><th> STATE </th><th><select>
+  <option value="Arizona">Arizona</option>
+  <option value="Washington">Washington</option>
+  <option value="Nevada">Nevada</option>
+  <option value="Oregon">Oregon</option>
+  <option value="California">California</option>
+</select></th> <br>
+<tr><th>GENDER </th><th><input type="radio" name="gender" value="male" checked> Male &nbsp;
+	<input type="radio" name="gender" value="female"> Female<br></th>
+
+<tr><th> COVERAGE </th> <th><select>
+  <option value="Basic">Basic</option>
+  <option value="Extended">Extended</option>
+  <option value="Premium">Premium</option>
+</select></th><br>
+  
+<tr><th> EDUCATION </th><th><select>
+  <option value="Bachelor">Bachelor</option>
+  <option value="College">College</option>
+  <option value="Doctor">Doctor</option>
+  <option value="HighSchool">HighSchool</option>
+  <option value="Master">Master</option>
+</select></th><br>
+
+
+<tr><th> EMPLOYMENTSTATUS </th><th><select>
+  <option value="Disabled">Disabled</option>
+  <option value="Employed">Employed</option>
+  <option value="UnEmployed">UnEmployed</option>
+  <option value="Retired">Retired</option>
+  <option value="MedicalLeave">MedicalLeave</option>
+</select></th> <br>
+
+<tr><th> INCOME  &nbsp;</th><th><input type="text" name="Income"></th><br>
+
+<tr><th> LOCATION </th><th><select>
+  <option value="SubUrban">SubUrban</option>
+  <option value="Urban">Urban</option>
+  <option value="Rural">Rural</option>
+</select></th><br>
+
+<tr><th> MARITAL STATUS </th><th><select>
+  <option value="Divorced">Divorced</option>
+  <option value="Married">Married</option>
+  <option value="UnMarried">UnMarried</option>
+</select></th><br>
+<input type="submit" value="Submit">
+</form> 
+</table>
+
+<br>
+	<h2> PREDICTION - The Conversion Probability of the above applicant : <font color="blue"> HIGH </font> </h2>
+</div>
+</body>
+</html>
